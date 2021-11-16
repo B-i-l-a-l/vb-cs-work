@@ -1,0 +1,14 @@
+E:\vb cs work\Assignment-3\Assignment-3\bin\Debug\netcoreapp3.1\Assignment-3.exe
+E:\vb cs work\Assignment-3\Assignment-3\bin\Debug\netcoreapp3.1\Assignment-3.deps.json
+E:\vb cs work\Assignment-3\Assignment-3\bin\Debug\netcoreapp3.1\Assignment-3.runtimeconfig.json
+E:\vb cs work\Assignment-3\Assignment-3\bin\Debug\netcoreapp3.1\Assignment-3.runtimeconfig.dev.json
+E:\vb cs work\Assignment-3\Assignment-3\bin\Debug\netcoreapp3.1\Assignment-3.dll
+E:\vb cs work\Assignment-3\Assignment-3\bin\Debug\netcoreapp3.1\Assignment-3.pdb
+E:\vb cs work\Assignment-3\Assignment-3\obj\Debug\netcoreapp3.1\Assignment-3.vbproj.AssemblyReference.cache
+E:\vb cs work\Assignment-3\Assignment-3\obj\Debug\netcoreapp3.1\Assignment-3.GeneratedMSBuildEditorConfig.editorconfig
+E:\vb cs work\Assignment-3\Assignment-3\obj\Debug\netcoreapp3.1\Assignment-3.AssemblyInfoInputs.cache
+E:\vb cs work\Assignment-3\Assignment-3\obj\Debug\netcoreapp3.1\Assignment-3.AssemblyInfo.vb
+E:\vb cs work\Assignment-3\Assignment-3\obj\Debug\netcoreapp3.1\Assignment-3.vbproj.CoreCompileInputs.cache
+E:\vb cs work\Assignment-3\Assignment-3\obj\Debug\netcoreapp3.1\Assignment-3.dll
+E:\vb cs work\Assignment-3\Assignment-3\obj\Debug\netcoreapp3.1\Assignment-3.pdb
+E:\vb cs work\Assignment-3\Assignment-3\obj\Debug\netcoreapp3.1\Assignment-3.genruntimeconfig.cache

@@ -1,0 +1,38 @@
+  	DECLARE str1 : String = ""
+        DECLARE count : Integer = 0
+        DECLARE char1 : Char = ""
+        DECLARE length : Boolean = True
+        DECLARE char2 : Char = ""
+        DECLARE char3 : Char = ""
+        DECLARE char4 : Char = ""
+
+
+        str1 = INPUT
+        IF Len(str1) <= 2 THEN
+            length = False
+        END IF
+
+        IF length = False THEN
+            OUTPUT("Empty String")
+            
+            EXIT 
+
+
+        END IF
+
+        FOR count = 1 To Len(str1)
+            char1 = LEFT(str1, 1)
+
+            char2 = MID(str1, 2)
+
+            char3 = RIGHT(str1, 2)
+            char4 = RIGHT(str1, 1)
+
+
+
+
+
+
+       NEXT
+
+        OUPUT("Final String is : " & char1 & char2 & char3 & char4)

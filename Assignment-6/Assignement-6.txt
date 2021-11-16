@@ -1,0 +1,13 @@
+   DECLARE Donuts : Integer = 0
+        DECLARE Count : Integer = 0
+
+
+        Donuts = INPUT
+
+        IF Donuts >= 10 THEN
+            OUTPUT("Number of Donuts: many ")
+
+        ELSE
+            OUTPUT("Number of Donuts: " & Donuts)
+
+        END IF

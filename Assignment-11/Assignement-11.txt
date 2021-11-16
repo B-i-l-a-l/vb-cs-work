@@ -1,0 +1,15 @@
+ 	DECLARE Str1 : String = ""
+
+       
+        INPUT LCase(Str1)
+
+        FOR count = 1 TO LEN(Str1)
+            FOR count2 = 1 TO Len(Str1)
+                IF MID(Str1, count, 3) = "not" AND MID(Str1, count2, 3) = "bad" THEN
+
+                    Str1 = LEFT(Str1, (count - 1)) & "good" & MID(Str1, (count2 + 3), (LEN(Str1)))
+                END IF
+            NEXT
+        NEXT
+
+        OUTPUT Str1

@@ -1,0 +1,35 @@
+  	DECLARE str1 : String = ""
+        DECLARE str2 : String = "ing"
+        DECLARE str3 : String = ""
+        DECLARE finalStr : String = ""
+        DECLARE Count : Integer = 0
+
+        str1 = INPUT
+
+        FOR Count = 1 To LEN(str1)
+            str3 = RIGHT(str1, 3)
+
+            IF LEN(str1) >= 3 And RIGHT(str1, 3) <> str2 THEN
+                finalStr = str1 & str2
+            ELSEIF LEN(str1) < 3 THEN
+                OUTPUT str1
+                finalStr = ""
+
+                EXIT FOR
+
+            END IF
+
+
+
+        NEXT
+
+
+        IF str3 = str2 THEN
+            str3 = "ly"
+            OUTPUT str1 & str3
+        ELSE str3 = ""
+
+
+        END IF
+
+        OUTPUT finalStr

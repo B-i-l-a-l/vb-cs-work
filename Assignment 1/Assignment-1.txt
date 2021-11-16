@@ -1,0 +1,32 @@
+ 	DECLARE a : Integer = 0
+        DECLARE b : Char = ''
+        DECLARE x : String = ""
+        DECLARE c, e, d : Integer
+        c = 0
+        e = 0
+        d = 0
+
+
+        OUTPUT("Enter Text: ")
+        INPUT x
+
+        FOR a = 1 To LENGTH(x)
+            b = MID(x, a, 1)
+            IF :c(b) >= 65 AND :c(b) <= 90 
+		THEN
+                c = c + 1
+            ELSE IF :c(b) >= 97 AND :c(b) <= 122 
+		THEN
+                d = d + 1
+            END IF
+
+        NEXT
+        IF c = Len(x) Then
+            OUTPUT "Text  h: capital letters ..."
+        ELSEIF d = Len(x) Then
+            OUTPUT "Text  h: small letters ..."
+        ELSE
+            OUTPUT "Text  h: mixed or special letters ..."
+        END IF
+
+  

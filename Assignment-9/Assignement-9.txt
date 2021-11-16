@@ -1,0 +1,38 @@
+ 	DECLARE stra : String = ""
+        DECLARE strb : String = ""
+        DECLARE Count : Integer = 0
+        DECLARE Char1 : Char = ""
+        DECLARE Char2 : Char = ""
+        DECLARE Char3 : Char = ""
+        DECLARE Char4 : Char = ""
+        DECLARE finalStr : String = ""
+        DECLARE currentChar : Char = ""
+
+        
+        stra = INPUT
+        strb = INPUT
+
+
+        Char1 = LEFT(stra, 1)
+        Char2 = MID(stra, 2)
+        Char3 = LEFT(strb, 1)
+        Char4 = MID(strb, 2)
+
+        finalStr = stra & " " & strb
+        FOR Count = 1 To LEN(finalStr)
+            currentChar = MID(finalStr, Count, 1)
+            IF currentChar = Char1 Then
+                currentChar = Char3
+            ELSEIF currentChar = Char2 Then
+                currentChar = Char4
+            ELSEIF currentChar = Char3 Then
+                currentChar = Char1
+            ELSEIF currentChar = Char4 Then
+                currentChar = Char2
+
+
+            END IF
+
+            OUTPUT currentChar
+
+        Next

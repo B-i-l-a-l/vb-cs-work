@@ -1,0 +1,20 @@
+   	DECLARE firstChar : Char = ""
+        DECLARE secChar : Char = "*"
+        DECLARE Str1 : String = ""
+        DECLARE Str2 : String = ""
+        DECLARE Count : Integer = 0
+
+        
+        Str1 = INPUT
+        firstChar = LEFT(Str1, 1)
+        OUTPUT(firstChar)
+        FOR Count = 1 To LEN(Str1)
+            secChar = MID(Str1, Count + 1, 1)
+            IF secChar = firstChar THEN
+                secChar = "*"
+
+            END IF
+
+            OUTPUT secChar
+
+        Next

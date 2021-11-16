@@ -1,0 +1,31 @@
+ 	DECLARE Str : String
+        DECLARE char1, c : Char
+
+        DECLARE Count, a, letterCount, specialCount : Integer
+
+        Str =""
+        char1 = ''
+        c = ''
+        Count = 0
+        a = 0
+        letterCount = 0
+        specialCount = 0
+        
+	Str = INPUT
+        
+        char1 = INPUT
+        
+	FOR Count = 1 To Len(Str)
+            c = Mid(Str, Count, 1)
+            IF UCase(c) = UCase(char1) THEN
+                a = a + 1
+            END IF
+            IF ASC(c) >= 65 And ASC(c) <= 90 Or ASC(c) >= 97 And ASC(c) <= 122 THEN
+                letterCount = letterCount + 1
+            ELSE
+                specialCount = specialCount + 1
+            END IF
+        Next
+        OUTPUT("Character appeared " & a & " " & "time/s ")
+        OUTPUT("Total Letters: " & letterCount)
+        OUTPUT("Total Special Characters: " & specialCount)

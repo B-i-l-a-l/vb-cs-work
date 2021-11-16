@@ -1,0 +1,34 @@
+ 	DECLARE x : String = ""
+        DECLARE currentChar : Char = ""
+        DECLARE Char1 : Char = ""
+        DECLARE Char2 : Char = ""
+        DECLARE a : Integer = 0
+        DECLARE firstCount : Integer = 0
+        DECLARE Str2 : String = ""
+
+
+        
+        x = INPUT
+        
+        Char1 = INPUT
+       
+        Char2 = INPUT
+
+
+
+        FOR a = 1 To LEN(x)
+            currentChar = MID(x, a, 1)
+            IF currentChar = Char1 Then
+                currentChar = Char2
+
+
+            END IF
+            Str2 = Str2 & currentChar
+
+
+
+
+
+        NEXT
+
+        OUTPUT(Str2)

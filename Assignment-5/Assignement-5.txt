@@ -1,0 +1,18 @@
+   	DECLARE Str1 : String = ""
+        DECLARE Char1 : Char = ''
+        DECLARE Count : Integer = 0
+        DECLARE Str2 : String = ""
+        DECLARE vowelCount : Integer = 0
+
+        Str1 = INPUT
+        Str2 = UCASE(Str1)
+
+        FOR Count = 1 To LEN(Str2)
+            Char1 = MID(Str2, Count, 1)
+            IF Char1 = 'A' Or Char1 = 'E' Or Char1 = 'I' Or Char1 = 'O' Or Char1 = 'U' THEN
+                vowelCount = vowelCount + 1
+
+		END IF
+
+        NEXT
+        OUTPUT("Total number of Vowels: " & vowelCount)
